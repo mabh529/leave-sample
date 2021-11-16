@@ -1,4 +1,4 @@
-package ddd.leave.interfaces.dto;
+package ddd.leave.facade.dto;
 
 import lombok.Data;
 

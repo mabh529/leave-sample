@@ -1,10 +1,10 @@
-package ddd.leave.interfaces.assembler;
+package ddd.leave.facade.assembler;
 
 import ddd.leave.domain.person.entity.Person;
 import ddd.leave.domain.person.entity.valueobject.PersonStatus;
 import ddd.leave.domain.person.entity.valueobject.PersonType;
 import ddd.leave.infrastructure.util.DateUtil;
-import ddd.leave.interfaces.dto.PersonDTO;
+import ddd.leave.facade.dto.PersonDTO;
 
 import java.text.ParseException;
 

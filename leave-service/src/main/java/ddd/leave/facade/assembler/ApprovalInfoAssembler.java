@@ -1,7 +1,7 @@
-package ddd.leave.interfaces.assembler;
+package ddd.leave.facade.assembler;
 
 import ddd.leave.domain.leave.entity.ApprovalInfo;
-import ddd.leave.interfaces.dto.ApprovalInfoDTO;
+import ddd.leave.facade.dto.ApprovalInfoDTO;
 
 public class ApprovalInfoAssembler {
 

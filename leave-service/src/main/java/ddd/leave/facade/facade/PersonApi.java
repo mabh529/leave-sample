@@ -1,10 +1,10 @@
-package ddd.leave.interfaces.facade;
+package ddd.leave.facade.facade;
 
 import ddd.leave.application.service.PersonApplicationService;
 import ddd.leave.domain.person.entity.Person;
 import ddd.leave.infrastructure.common.api.Response;
-import ddd.leave.interfaces.assembler.PersonAssembler;
-import ddd.leave.interfaces.dto.PersonDTO;
+import ddd.leave.facade.assembler.PersonAssembler;
+import ddd.leave.facade.dto.PersonDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
